@@ -14,6 +14,9 @@
 		0C83334F1E3D9F55004A71FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C83334D1E3D9F55004A71FF /* Main.storyboard */; };
 		0C8333511E3D9F55004A71FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C8333501E3D9F55004A71FF /* Assets.xcassets */; };
 		0C8333541E3D9F55004A71FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8333521E3D9F55004A71FF /* LaunchScreen.storyboard */; };
+		0C83335D1E3D9F9C004A71FF /* TinyPixDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C83335C1E3D9F9C004A71FF /* TinyPixDocument.m */; };
+		0C8333601E3DA56C004A71FF /* TinyPixUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C83335F1E3DA56C004A71FF /* TinyPixUtils.m */; };
+		0C8333631E3DA719004A71FF /* TinyPixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8333621E3DA719004A71FF /* TinyPixView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		0C8333501E3D9F55004A71FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C8333531E3D9F55004A71FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C8333551E3D9F55004A71FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C83335B1E3D9F9C004A71FF /* TinyPixDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyPixDocument.h; sourceTree = "<group>"; };
+		0C83335C1E3D9F9C004A71FF /* TinyPixDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyPixDocument.m; sourceTree = "<group>"; };
+		0C83335E1E3DA56C004A71FF /* TinyPixUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyPixUtils.h; sourceTree = "<group>"; };
+		0C83335F1E3DA56C004A71FF /* TinyPixUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyPixUtils.m; sourceTree = "<group>"; };
+		0C8333611E3DA719004A71FF /* TinyPixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyPixView.h; sourceTree = "<group>"; };
+		0C8333621E3DA719004A71FF /* TinyPixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyPixView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +70,12 @@
 		0C8333401E3D9F55004A71FF /* TinyPixel */ = {
 			isa = PBXGroup;
 			children = (
+				0C83335B1E3D9F9C004A71FF /* TinyPixDocument.h */,
+				0C83335C1E3D9F9C004A71FF /* TinyPixDocument.m */,
+				0C83335E1E3DA56C004A71FF /* TinyPixUtils.h */,
+				0C83335F1E3DA56C004A71FF /* TinyPixUtils.m */,
+				0C8333611E3DA719004A71FF /* TinyPixView.h */,
+				0C8333621E3DA719004A71FF /* TinyPixView.m */,
 				0C8333441E3D9F55004A71FF /* AppDelegate.h */,
 				0C8333451E3D9F55004A71FF /* AppDelegate.m */,
 				0C8333471E3D9F55004A71FF /* MasterViewController.h */,
@@ -160,6 +175,9 @@
 				0C8333491E3D9F55004A71FF /* MasterViewController.m in Sources */,
 				0C8333431E3D9F55004A71FF /* main.m in Sources */,
 				0C83334C1E3D9F55004A71FF /* DetailViewController.m in Sources */,
+				0C83335D1E3D9F9C004A71FF /* TinyPixDocument.m in Sources */,
+				0C8333601E3DA56C004A71FF /* TinyPixUtils.m in Sources */,
+				0C8333631E3DA719004A71FF /* TinyPixView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
